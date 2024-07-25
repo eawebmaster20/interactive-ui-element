@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- imports script -->
-    <!-- Vendor Script -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micro Interaction</title>
-  </head>
-  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+</head>
+<body>
+    <!-- loading... screen -->
+    <div id="loading-screen" class="loading-state">
+        <p>loading...</p>
+    </div>
+    <!-- loading... screen -->
+
     <div class="container">
       <div class="imgBx">
         <img
@@ -66,9 +67,10 @@
     <footer>
       <a href="https://AmalitechGTP.com" target="_blank">2024 GTP</a>
     </footer>
+    <script src="./script.js"></script>
 
     <!-- Animation and Interaction scripts here -->
-    \
+    
     <script>
       // Change The Picture and Associated Element Color when Color Options Are Clicked.
       $(".product-colors span").click(function () {
@@ -88,3 +90,4 @@
     </script>
   </body>
 </html>
+
