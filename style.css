@@ -185,7 +185,7 @@ body {
 .orange {
     background: #F18557;
 }
-.product-colors .active:after{
+.product-colors .active:after {
     content: "";
     width: 36px;
     height: 36px;
@@ -196,3 +196,15 @@ body {
     left: -5px;
     top: -5px;
 }
+
+#buy-btn {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#buy-btn:hover {
+   opacity: .8;
+   scale: 1.08;
+}
+
+
