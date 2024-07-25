@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   window.onload= function() {
     setInterval(function() {
-        document.querySelector(".container").style.display = "block";
         document.getElementById("loading-screen").style.display = "none";
     },3000)
   }
